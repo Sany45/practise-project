@@ -45,9 +45,15 @@
     font-size: 28px;
     line-height: 2em;
  }
-.articale p .imp{
-    font-size: 2em;
-    background-color: yellow;
-    display: inline;
-    width: 600px;
+ *{
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after{
+ content: "";
+ display: table;
 }
