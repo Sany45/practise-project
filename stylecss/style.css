@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+ *{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lato', sans-serif;
+ }
+ .Hero{
+    background-image: url('../image/cow.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+ }
+ .Hero h1{
+    color: azure;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top:  60px;
+ }
+ .articale{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-width: 15px;
+    border-color: yellowgreen;
+    border-style: groove;
+    background-color: aqua;
+    padding: 60px;
+    
+ }
+ .articale h2{
+    text-align: center;
+    font-size: 48px;
+    border: 2px;
+    border-color: yellowgreen;
+    border-style: groove;
+    border-top: 0cap;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+ }
+ .articale p{
+    font-size: 28px;
+    line-height: 2em;
+ }
+.articale p .imp{
+    font-size: 2em;
+    background-color: yellow;
+    display: inline;
+    width: 600px;
+}
